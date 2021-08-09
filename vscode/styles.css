@@ -15,21 +15,23 @@ font-family: 'Poppins', sans-serif;
 
 nav{
     display: flex;
-    padding: 2% 6%;
+    padding: 3px;
     justify-content: space-between;
     align-items: center;
 }
 
 .container{
-    height: 100px;
+    height: 130px;
     width: 100%;
-    background-color: #ffffff;
+    background-color: #01843e;
     position: fixed;
 }
 
 nav img{
-    width: 100px;
-    height: 70px;
+    width: 200px;
+    height: 140px;
+    margin-top: 0;
+    padding-left: 150px;
 }
 nav-links{
     flex: 1;
@@ -38,15 +40,14 @@ nav-links{
 }
 
 .nav-links ul li{
-    list-style: 
-    none;
+    list-style: none;
     display: inline-block;
     padding: 8px 12px;
     position: relative;
 }
 
 .nav-links ul li a{
-    color: #01843e;
+    color: #ffffff;
     text-decoration: none;
     font-size: 13px;
 }
@@ -55,7 +56,7 @@ nav-links{
     content: '';
     width: 0%;
     height: 2px;
-    background: #01843e;
+    background: #ffffff;
     display: block;
     margin: auto;
     transition: 0.7s;
@@ -135,8 +136,6 @@ nav .fa{
    
 }
 
-
-
 .About-us{
     width: 80%;
     margin: auto;
@@ -162,7 +161,7 @@ p{
 }
 
 .row{
-    margin-top: 5%;
+    margin-top: 0%;
     display: flex;
     justify-content: space-between;
 }
@@ -197,26 +196,28 @@ p{
     }
  }
 
- .services{
+ .whyus{
      width: 80%;
      margin: auto;
      text-align: center;
      padding-top: 50px;
  }
 
- .services h1{
+ .whyus h1{
      color: #01843e;
  }
 
- .services-col{
-     flex-basis: 32%;
+ .whyus-col{
+     flex-basis: 23%;
      border-radius: 10px;
-     margin-bottom: 30;
+     margin-bottom: 30px;
      position: relative;
      overflow: hidden;
+     justify-content: space-between;
+     width: 100%;
 
  }
- .services-col img{
+ .whyus-col img{
      height: 100%;
      width: 100%;
  }
@@ -249,8 +250,43 @@ p{
  }
 
  .layer:hover h3{
-     bottom: 49%;
+     bottom: 40%;
      opacity: 1;
+ }
+
+ .services{
+     width: 80%;
+     margin: auto;
+     text-align: center;
+     padding-top: 50px;
+ }
+
+ .services-col{
+     flex-basis: 46%;
+     border-radius: 10px;
+     text-align: left;
+     margin-top: 10px;
+     justify-content: space-between;
+     display: inline-block;
+ }
+
+ .services-col img{
+     width: 100%;
+     border-radius: 10px;
+     margin-top: 5%;
+ }
+
+ .services-col p{
+     padding: 0;
+     margin-top: 5px;
+     margin-bottom: 5%;
+ }
+
+ .services-col h3{
+     margin-top: 5px;
+     margin-bottom: 15px;
+     text-align: left;
+     color: #01803d;
  }
 
  .team{
@@ -270,7 +306,7 @@ p{
  .team-col img{
      width: 50%;
      border-radius: 50%;
-     border: 5px #ffffff;
+     border: 5px #01803d;
  }
 
  .team-col p{
@@ -307,5 +343,70 @@ p{
      }
  }
 
+ .footer{
+     min-height: 30vh;
+     background-color: #ccccca;
+ }
+
+ .footer-col{
+    flex-basis: 35%;
+     margin: 3%;
+     padding: 10px 6px;
+
+ }
+
+ .footer-col h3{
+     color: #01803d;
+     margin-left: 0;
+     text-align: left;
+ }
+
+ .footer-col li{
+     text-decoration: none;
+     font-size: 20px;
+     list-style: none;
+ }
 
 
+/*-------------- about us page -------------*/
+.sub-header{
+   height: 60vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.4),rgba(4,9,30,0.4)),url(images/to\ dump.jpg); 
+   background-position: center;
+   background-size: cover;
+   text-align: center;
+   color: #ffffff;
+}
+
+.sub-header h1{
+    margin-bottom: 40px;
+    font-size: 65px;
+    
+}
+
+.About{
+    width: 80%;
+    margin-top: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 40px 45px;
+    justify-content: space-between;
+}
+
+.about-col img{
+    width: 100%;
+}
+
+.about-col h1{
+    padding-top: 0;
+    color: #01803d;
+}
+
+.about-col p{
+    padding: 15px 0px 25px;
+}

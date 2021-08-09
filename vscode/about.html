@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale 1.0">
+        <title>to publish</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <div class="container">
+                <nav>
+                    <a href="index.html"><img src="images/Logo.png" alt=""></a>
+                    <div class="nav-links" id="navLinks">
+                        <i class="fa fa-times" onclick="hidemenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="#team">Meet Our Team</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showmenu()"></i>
+                </nav>
+                
+            </div>
+
+            <div class="text-box">
+                <h1>About Us</h1> 
+            </div>
+
+        </section>
+
+        
+
+        <section class="about">
+            <div class="row">
+                <div class="about-col">
+                    <h1>About Randago</h1>
+                    <P>Greenbins Randago Enterprises is a Garbage collection, Fumigation and Cleaning Services Company located in Kakamega County with comprehensive experience and skilled environmental professionals, we provide high quality service teamed with a network of highly recogised disposal facilities, to offer efficient, cost-effective, environmentally sound solutions to Garbage collection, Fumigation and Cleaning.<br>
+                    
+                    Randago has built its business on careful planning, depth in technical management, and a corporate structure that promotes the reliability and successful completion of customer assignments.
+                    </P>
+
+                    <p></p>
+                    <a href=""class="hero-btn">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/Fumigate.jpg" alt="">
+                </div>
+            </div>
+        </section>
+                                 
+        <section class="footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h3>Products & Serives</h3>
+                    <ul>
+                        <li>Trash Collection</li>
+                        <li>Waste Disposal</li>
+                        <li>Roll-Off Dumpster</li>
+                        <li>Bulk Trash Pickup</li>
+                        <li>Construction Waste Disposal</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Customer Support</h3>
+                    <ul>
+                        <li>Missed Pickup</li>
+                        <li>Request an Extra Pickup</li>
+                        <li>Frequently asked Questions</li>
+                        <li>Customer Support</li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h3>Products & Serives</h3>
+                    <ul>
+                        <li>Recycing 101</li>
+                        <li>Our Service Areas</li>
+                        <li>Who we are</li>
+                        <li>Why Randago</li>
+                        <li>Drop off Locations</li>
+                        <li>Service Notifications</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hidemenu(){
+                navLinks.style.right = "-200px";
+            }
+                
+        </script>
+    </body>
+</html>
