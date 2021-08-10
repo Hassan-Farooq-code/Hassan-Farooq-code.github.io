@@ -5,9 +5,9 @@ font-family: 'Poppins', sans-serif;
 }
 
 .header{
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.3)), url(images/The\ squad.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(images/Gabage\ collected.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -36,20 +36,19 @@ nav img{
 nav-links{
     flex: 1;
     text-align: right;
-    
 }
 
 .nav-links ul li{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
-    position: relative;
+    position: relative; 
 }
 
 .nav-links ul li a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .nav-links ul li::after{
@@ -259,6 +258,7 @@ p{
      margin: auto;
      text-align: center;
      padding-top: 50px;
+     color: #01843e;
  }
 
  .services-col{
@@ -294,12 +294,14 @@ p{
      margin: auto;
      text-align: center;
      padding-top: 5%;
+     color: #01843e;
  }
 
  .team-col{
-     flex-basis: 31%;
+     flex-basis: 40%;
      margin-bottom: 5%;
      text-align: center;
+     margin-top: 10%;
      
  }
 
@@ -409,4 +411,106 @@ p{
 
 .about-col p{
     padding: 15px 0px 25px;
+}
+
+.pads{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.pads-col{
+    flex-basis: 48%;
+    padding: 40px 45px;
+    justify-content: space-between;
+}
+
+.pads-col img{
+    width: 80%;
+}
+
+.pads-col h2{
+    margin-top: 5%;
+    color: #01843e;
+}
+
+.c-container{
+    width: 80%;
+    margin: 65px auto;
+    height: 100vh;
+}
+
+.contact-box{
+    background: #ccccca;
+    display: flex;
+}
+
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #01843e;
+    color: #fff;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-shadow: border-box;
+}
+
+button{
+    background: #01843e;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(1,132,60,0.3);
+}
+
+.contact-left h3{
+    color: #ccccca;
+}
+
+tr td:first-child{
+    padding-right: 40px;
+}
+
+tr td{
+    padding-top: 35px;
 }
