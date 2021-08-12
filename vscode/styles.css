@@ -38,6 +38,19 @@ nav-links{
     text-align: right;
 }
 
+#searchBox{
+    border-radius: 300px;
+    padding: 25px;
+    background: #f0f3ff;
+    display: flex;
+    align-items: center;
+}
+
+#searchIcon{
+    width: 25px;
+    cursor: pointer;
+}
+
 .nav-links ul li{
     list-style: none;
     display: inline-block;
@@ -57,7 +70,6 @@ nav-links{
     height: 2px;
     background: #ffffff;
     display: block;
-    margin: auto;
     transition: 0.7s;
 }
 
